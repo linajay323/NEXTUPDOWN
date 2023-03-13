@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif, sans-serif;
+}
+h1 p {
+    letter-spacing: -1.0px;
+    font-size: 18px;
+}
+body {
+    width: 1200px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-text {
+    /* background-color:aquamarine; */
+    height: 100px;
+    display: flex; /* use flexbox layout for the container */
+    align-items: center; /* center the items vertically */
+    justify-content: center; /* center the items horizontally */ 
+    border-bottom: 1px solid #e4e8eb;   
+}
+.btn-name1 {
+    /* background-color: bisque; */
+    height: 200px;
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center; /* center the items vertically */
+    justify-content: center; /* center the items horizontally */ 
+}
+.btn-name2 {
+    /* background-color: bisque; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center; /* center the items vertically */
+    border-bottom: 1px solid #e4e8eb;
+    font-size: 18px;
+}
+.my-button {
+    background-color: #4c53af;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+    /* box-shadow: none; */
+    background-color: #583e88;
+    /* color:black; */
+}
+.foot-text{
+    /* background-color: cornflowerblue; */
+    height: 140px;
+    font-size: 14px;
+    display: flex; /* use flexbox layout for the container */
+    align-items: center; /* center the items vertically */
+    justify-content: center; /* center the items horizontally */ 
+    color: #4e4e4e;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width: 400px;
+    }
+    .main-text {
+        font-size: 11px;   
+    }
+    .btn-name1 {
+        padding-top: 140px;
+        
+    }
+    .btn-name2 {
+        font-size: 16px;
+        height: 320px;
+    }
+    .my-button {
+    
+    }
+    button:hover {
+
+    }
+    .foot-text{
+        font-size: 11px;
+    } 
+}
