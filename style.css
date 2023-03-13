@@ -74,18 +74,18 @@ button:hover {
 
 @media screen and (max-width:768px) {
     body {
-        width: 400px;
+        width: 360px;
     }
     .main-text {
         font-size: 11px;   
     }
     .btn-name1 {
-        padding-top: 140px;
+        padding-top: 40px;
         
     }
     .btn-name2 {
-        font-size: 16px;
-        height: 320px;
+        font-size: 14px;
+        height: 180px;
     }
     .my-button {
     
