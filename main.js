@@ -1,6 +1,6 @@
 function changeText() {
-    document.getElementById("myText1").innerHTML = "HLB";
-    document.getElementById("myText2").innerHTML = "55%";
+    document.getElementById("myText1").innerHTML = "[ HLB ]";
+    document.getElementById("myText2").innerHTML = "[ 55 ]";
 }
 
 function executeAction() {
