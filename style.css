@@ -62,6 +62,22 @@ button:hover {
     background-color: #583e88;
     /* color:black; */
 }
+.banner-ad {
+    /* background-color: rgb(2, 230, 135); */
+    border: 1px solid #bab8bd;
+    opacity: 0.5;
+    height: 250px;
+    width: 300px;
+    margin-top: 65px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-ad p {
+    color: #bab8bd;
+    /* border: 1px solid grey; */
+}
+
 .foot-text{
     /* background-color: cornflowerblue; */
     height: 140px;
